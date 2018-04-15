@@ -824,6 +824,41 @@
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
 }
+
+
+.reactInsurance-image-viewer .rotatebutton-group {
+  float: right;
+  /* margin-right: 4rem; */
+}
+.reactInsurance-image-viewer .rotatebutton-group .button {
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  margin: .86rem 0rem;  
+  opacity: 1;
+  border: .14rem solid #fff;
+  border-radius: 50%;
+  border-left: 0px solid black;
+  border-bottom: 0px solid black;
+}
+
+
+.reactInsurance-image-viewer .rotatebutton-group .rotate:before,
+.reactInsurance-image-viewer .rotatebutton-group .rotate:after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 1.6rem;
+  width: .12rem;
+  top: 1.5rem;
+  left: 4.3rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
 @keyframes bounce {
   0%,
   100% {
