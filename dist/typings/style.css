@@ -1,6 +1,6 @@
 .react-image-viewer {
   position: relative;
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   overflow: hidden;
 }
@@ -18,7 +18,7 @@
   transition: all .4s ease;
 }
 .react-image-viewer .button-group .button:hover {
-  opacity: .8;
+  opacity: 1;
 }
 .react-image-viewer .prev-button,
 .react-image-viewer .next-button {
@@ -30,25 +30,27 @@
   padding: 0;
   color: #fff;
   cursor: pointer;
-  opacity: .4;
+  opacity: 1;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
+
+
 .react-image-viewer .prev-button:hover,
 .react-image-viewer .next-button:hover {
-  opacity: .8;
+  opacity: 1;
 }
 .react-image-viewer .prev-button {
   left: 0;
 }
 .react-image-viewer .next-button {
-  right: 0;
+  right: 65vw;
 }
 .react-image-viewer .image-wrapper {
   position: relative;
-  width: 92vw;
-  height: 92vh;
-  margin: 4vh 4vw;
+  width: 30vw;
+  height: 100vh;
+  margin: 3vh 3vw;
   overflow: hidden;
 }
 .react-image-viewer .image-outer {
@@ -78,8 +80,8 @@
   vertical-align: middle;
   max-width: 100%;
   max-height: 100%;
-  width: auto !important;
-  height: auto !important;
+  width: 95%;
+  height: 90%;
   background-size: contain!important;
   background-position: center!important;
   background-repeat: no-repeat !important;
@@ -111,13 +113,13 @@
 }
 .react-image-viewer .tool-bar {
   height: 4rem;
-  width: 100vw;
+  /* width: 100vw; */
   position: fixed;
   left: 0;
   top: 0;
   padding-right: 4rem;
   line-height: 4rem;
-  opacity: .5;
+  opacity: 1;
   background: rgba(0, 0, 0, 0);
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -156,9 +158,9 @@
 }
 .react-image-viewer .indicators {
   position: fixed;
-  left: 0;
+  /* left: 0; */
   bottom: 1rem;
-  width: 100vw;
+  /* width: 100vw; */
   height: 3rem;
   min-width: 30rem;
   overflow: hidden;
@@ -323,11 +325,11 @@
   transform: rotate(180deg);
 }
 .react-image-viewer .button-group .button {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   text-align: center;
   margin: .86rem 1rem;
-  opacity: .5;
+  opacity: 1;
   border: .14rem solid #fff;
   border-radius: 50%;
 }
@@ -338,8 +340,8 @@
   position: absolute;
   height: 1.6rem;
   width: .12rem;
-  top: .2rem;
-  left: .94rem;
+  top: .5rem;
+  left: 1.3rem;
   background-color: #fff;
   border-radius: 2rem;
   -webkit-transform-origin: center;
@@ -351,6 +353,42 @@
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
+
+.react-image-viewer .rotatebutton-group {
+  float: right;
+  /* margin-right: 4rem; */
+}
+.react-image-viewer .rotatebutton-group .button {
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  margin: .86rem 0rem;  
+  opacity: 1;
+  border: .14rem solid #fff;
+  border-radius: 50%;
+  border-left: 0px solid black;
+  border-bottom: 0px solid black;
+}
+
+
+.react-image-viewer .rotatebutton-group .rotate:before,
+.react-image-viewer .rotatebutton-group .rotate:after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 1.6rem;
+  width: .12rem;
+  top: 1.5rem;
+  left: 4.3rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+
 .react-image-viewer .bounce {
   width: 2.4rem;
   height: 2.4rem;
@@ -410,11 +448,10 @@
 }
 
 
-
 .reactInsurance-image-viewer {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw; */
+  height: 65vh;
   overflow: hidden;
 }
 .reactInsurance-image-viewer .button-group {
@@ -431,7 +468,7 @@
   transition: all .4s ease;
 }
 .reactInsurance-image-viewer .button-group .button:hover {
-  opacity: .8;
+  opacity: 1;
 }
 .reactInsurance-image-viewer .prev-button,
 .reactInsurance-image-viewer .next-button {
@@ -443,25 +480,25 @@
   padding: 0;
   color: #fff;
   cursor: pointer;
-  opacity: .4;
+  opacity: 1;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
 .reactInsurance-image-viewer .prev-button:hover,
 .reactInsurance-image-viewer .next-button:hover {
-  opacity: .8;
+  opacity: 1;
 }
 .reactInsurance-image-viewer .prev-button {
-  left: 0;
+  left: unset;
 }
 .reactInsurance-image-viewer .next-button {
-  right: 0;
+  right:10vw;
 }
 .reactInsurance-image-viewer .image-wrapper {
   position: relative;
-  width: 92vw;
-  height: 92vh;
-  margin: 4vh 4vw;
+  width: 25vw;
+  height: 60vh;
+  margin: 3vh 3vw;
   overflow: hidden;
 }
 .reactInsurance-image-viewer .image-outer {
@@ -491,8 +528,8 @@
   vertical-align: middle;
   max-width: 100%;
   max-height: 100%;
-  width: auto !important;
-  height: auto !important;
+  width: 95%;
+  height: 90%;
   background-size: contain!important;
   background-position: center!important;
   background-repeat: no-repeat !important;
@@ -524,13 +561,13 @@
 }
 .reactInsurance-image-viewer .tool-bar {
   height: 4rem;
-  width: 100vw;
-  position: fixed;
+  /* width: 100vw; */
+  position: absolute;
   left: 0;
-  top: 0;
-  padding-right: 4rem;
-  line-height: 4rem;
-  opacity: .5;
+  /* top: .8rem; */
+  /* padding-right: 4rem;
+  line-height: 4rem; */
+  opacity: 1;
   background: rgba(0, 0, 0, 0);
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -568,10 +605,10 @@
   color: rgba(255, 255, 255, 0.6);
 }
 .reactInsurance-image-viewer .indicators {
-  position: fixed;
-  left: 0;
+  /* position: fixed; */
+  /* left: 0; */
   bottom: 1rem;
-  width: 100vw;
+  /* width: 100vw; */
   height: 3rem;
   min-width: 30rem;
   overflow: hidden;
@@ -736,11 +773,11 @@
   transform: rotate(180deg);
 }
 .reactInsurance-image-viewer .button-group .button {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   text-align: center;
   margin: .86rem 1rem;
-  opacity: .5;
+  opacity: 1;
   border: .14rem solid #fff;
   border-radius: 50%;
 }
@@ -751,8 +788,8 @@
   position: absolute;
   height: 1.6rem;
   width: .12rem;
-  top: .2rem;
-  left: .94rem;
+  top: .5rem;
+  left: 1.3rem;
   background-color: #fff;
   border-radius: 2rem;
   -webkit-transform-origin: center;
