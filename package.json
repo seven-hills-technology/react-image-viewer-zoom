@@ -2,25 +2,25 @@
   "_args": [
     [
       {
-        "raw": "react-image-viewer-zoom@1.0.36",
+        "raw": "react-image-viewer-zoom@2.0.0",
         "scope": null,
         "escapedName": "react-image-viewer-zoom",
         "name": "react-image-viewer-zoom",
-        "rawSpec": "1.0.36",
-        "spec": "1.0.36",
+        "rawSpec": "2.0.0",
+        "spec": "2.0.0",
         "type": "version"
       },
       "D:\\WORK\\SVN Branches\\Mobile App Backend\\Portal"
     ]
   ],
-  "_from": "react-image-viewer-zoom@1.0.36",
-  "_id": "react-image-viewer-zoom@1.0.36",
+  "_from": "react-image-viewer-zoom@2.0.0",
+  "_id": "react-image-viewer-zoom@2.0.0",
   "_inCache": true,
   "_location": "/react-image-viewer-zoom",
   "_nodeVersion": "5.3.0",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/react-image-viewer-zoom-1.0.36.tgz_1488786502470_0.8413040381856263"
+    "tmp": "tmp/react-image-viewer-zoom-2.0.0.tgz_1488786502470_0.8413040381856263"
   },
   "_npmUser": {
     "name": "mawahujihara",
@@ -29,21 +29,21 @@
   "_npmVersion": "3.3.12",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "react-image-viewer-zoom@1.0.36",
+    "raw": "react-image-viewer-zoom@2.0.0",
     "scope": null,
     "escapedName": "react-image-viewer-zoom",
     "name": "react-image-viewer-zoom",
-    "rawSpec": "1.0.36",
-    "spec": "1.0.36",
+    "rawSpec": "2.0.0",
+    "spec": "2.0.0",
     "type": "version"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/react-image-viewer-zoom/-/react-image-viewer-zoom-1.0.36.tgz",
+  "_resolved": "https://registry.npmjs.org/react-image-viewer-zoom/-/react-image-viewer-zoom-2.0.0.tgz",
   "_shasum": "2df15b66048c91d8d85e02107ec6ba77b6fc4c79",
   "_shrinkwrap": null,
-  "_spec": "react-image-viewer-zoom@1.0.36",
+  "_spec": "react-image-viewer-zoom@2.0.0",
   "_where": "D:\\WORK\\SVN Branches\\Mobile App Backend\\Portal",
   "author": {
     "name": "mawa"
@@ -52,8 +52,8 @@
     "url": "https://github.com/bananafishM/react-image-viewer-zoom/issues"
   },
   "dependencies": {
-    "@types/react": "^15.0.14",
-    "@types/react-dom": "^0.14.23",
+    "@types/react": "^16.0.0",
+    "@types/react-dom": "^16.0.0",
     "typescript": "^2.2.1"
   },
   "description": "A React-based image viewer.",
@@ -63,8 +63,9 @@
     "css-loader": "^0.26.2",
     "html-loader": "^0.4.5",
     "mocha": "^3.2.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "source-map-loader": "^0.1.6",
     "style-loader": "^0.13.2",
     "ts-loader": "^2.0.1",
@@ -74,7 +75,7 @@
   "directories": {},
   "dist": {
     "shasum": "2df15b66048c91d8d85e02107ec6ba77b6fc4c79",
-    "tarball": "https://registry.npmjs.org/react-image-viewer-zoom/-/react-image-viewer-zoom-1.0.36.tgz"
+    "tarball": "https://registry.npmjs.org/react-image-viewer-zoom/-/react-image-viewer-zoom-2.0.0.tgz"
   },
   "gitHead": "c72917c137c8c1f7aeab30b91360634097018665",
   "homepage": "https://github.com/bananafishM/react-image-viewer-zoom#readme",
@@ -104,5 +105,5 @@
     "demo": "webpack-dev-server --inline --config webpack.config.demo.js"
   },
   "types": "dist/typings/index.d.ts",
-  "version": "1.0.36"
+  "version": "2.0.0"
 }

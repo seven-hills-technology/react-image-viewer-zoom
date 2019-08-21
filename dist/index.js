@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = require("react");
 const react_1 = require("react");
+const PropTypes = require('prop-types');
 const constants_1 = require("./constants");
 class ImageWrapper extends react_1.Component {
     constructor(props, context) {
@@ -245,10 +246,10 @@ ImageViewer.defaultProps = {
     activeIndex: 0,
 };
 ImageViewer.propTypes = {
-    prefixCls: react_1.PropTypes.string,
-    className: react_1.PropTypes.string,
-    showIndex: react_1.PropTypes.bool,
-    showPreview: react_1.PropTypes.bool,
-    activeIndex: react_1.PropTypes.number,
+    prefixCls: PropTypes.string,
+    className: PropTypes.string,
+    showIndex: PropTypes.bool,
+    showPreview: PropTypes.bool,
+    activeIndex: PropTypes.number,
 };
 exports.default = ImageViewer;
